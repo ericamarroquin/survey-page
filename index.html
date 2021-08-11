@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Survey</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Fill out the following survey:</h1>
+    <form id="survey">
+      <div class="form-group">
+        <label for="name1">Enter your name:</label>
+        <input id="name1" class="form-control" type="text">
+      </div>
+      <h2>Which food do you prefer?</h2>
+      <select class="form-control" id="food">
+        <option>Italian</option>
+        <option>Chinese</option>
+        <option>Mexican</option>
+        <option>American</option>
+      </select>
+      <h2>Which music do you prefer?</h2>
+      <div class="radio">
+        <label>
+          <input type="radio" name="genre" value="rock">
+          Rock
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="genre" value="rap">
+          Rap
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="genre" value="country">
+          Country
+        </label>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
